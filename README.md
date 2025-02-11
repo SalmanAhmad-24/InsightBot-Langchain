@@ -122,12 +122,3 @@ If you want to contribute to InsightBot:
 2. **Submit a pull request** with your changes, enhancements, or bug fixes.
 3. Ensure all tests pass and functionality remains intact.
 
----
-
-### **License**
-
-This project is licensed under the MIT License.
-
----
-
-Let me know if you'd like any adjustments or additional features in the README! 🚀
