@@ -74,44 +74,7 @@ pip install openai pinecone-client streamlit langchain langgraph python-dotenv
 4. **Interacting with InsightBot**:
    - Once the Streamlit interface is up and running, you can enter a query (e.g., *"list all action items from Cialdini's Influence book"*) in the provided text box.
    - The bot will then retrieve the relevant content, analyze it, and display a structured list of actionable insights and strategies.
-
----
-
-### **Usage Example**
-
-Let's say you want to retrieve actionable insights from Robert Cialdini's *Influence: The Psychology of Persuasion*. You would:
-
-1. Upload the book or relevant chapters to the Pinecone vector store.
-2. Enter the query: *"List all action items from Cialdini's Influence book. Be exhaustive, even if there are over 100 items."*
-3. The bot will return a list of insights and actionable steps, structured as follows:
-
-```
-<results>
-<insights>
-1. Reciprocity: The Rule of Give and Take
-   - Offer a favor, gift, or concession before making a request.
-   - Source: Influence by Robert Cialdini
-
-2. Commitment and Consistency: The Power of Staying True
-   - Ask for a small commitment before requesting a larger one.
-   - Source: Influence by Robert Cialdini
-
-[Continue listing all insights...]
-</insights>
-
-<action_steps>
-1. Use the "foot-in-the-door" technique by starting with a small request before a larger one.
-   - This increases the likelihood of compliance.
-   - Source: Influence by Robert Cialdini
-
-2. Highlight social proof by showing that others have taken similar actions.
-   - This reinforces the decision-making process.
-   - Source: Influence by Robert Cialdini
-[Continue listing all action steps...]
-</action_steps>
-</results>
-```
-
+     
 ---
 
 ### **Contribution Guidelines**
